@@ -1,0 +1,36 @@
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# Word lock files (transient, created when a .docx is open)
+~$*.docx
+~$*.doc
+
+# Claude AI references — internal scaffolding, not part of the final paper
+.claude/
+CLAUDE.md
+docs/presentation_prompt.md
+
+# Source images — too large for GitHub. Raw smartphone JPEGs and intermediate
+# processed PNGs are archived separately on PURR. Reproducible by running
+# scripts/00_rename.py and scripts/02_segment.py on the raw set.
+raw/
+processed/
+figures/segmentation_previews/
+
+# Older snapshots and superseded outputs
+previous material/
+interim_snapshot/
+docs/ABE651_Interim_Report1.docx
+
+# Pipeline run artifacts (regeneratable, not informative on their own)
+docs/pipeline_log.txt
+data/failed_images.txt

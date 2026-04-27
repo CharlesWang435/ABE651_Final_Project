@@ -1,0 +1,5 @@
+QC Check,Total Checked,Mild Flags,Severe Flags,Removed,Notes
+"Segmentation quality (area 5–90%, solidity>0.6)",140,0,0,0,Severe flags considered for removal
+"Exposure / Illumination (L* 12-85, no clipped channels)",140,11,0,0,Clipped channels counted as mild
+Metric outliers (per-species IQR),140,35,6,0,"Per-species Q1-1.5/3xIQR, Q3+1.5/3xIQR"
+Metadata completeness & uniqueness,140,62,0,0,Rows with any NaN; duplicate sample_id
