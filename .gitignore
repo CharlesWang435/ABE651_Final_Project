@@ -31,6 +31,9 @@ previous material/
 interim_snapshot/
 docs/ABE651_Interim_Report1.docx
 
+# Course rubric (Dr. Cherkauer's grading sheet, not part of the work product)
+Final ReportRubric.pdf
+
 # Pipeline run artifacts (regeneratable, not informative on their own)
 docs/pipeline_log.txt
 data/failed_images.txt
