@@ -4,14 +4,14 @@
 
 This repository extracts a curated set of 20 phenotypic features (colour, GLCM texture, morphology) from RGB smartphone photographs of corn (*Zea mays*) and soybean (*Glycine max*) leaves captured inside a custom transmittance lightbox. The deliverable is a **reusable phenotypic feature dataset** — not a comparison of the two species. Species (CN, SB) is a labeling/grouping variable only.
 
-The full narrative is in [docs/ABE651_Final_Report.docx](docs/ABE651_Final_Report.docx); the dataset itself is published on PURR (link to be inserted on final publication).
+The full narrative is in [docs/ABE651_Final_Report.docx](docs/ABE651_Final_Report.docx); the dataset itself is published on PURR.
 
 ---
 
 ## Quickstart
 
 ```bash
-git clone <repo-url> "Final Report"
+git clone https://github.com/CharlesWang435/ABE651_Final_Project.git "Final Report"
 cd "Final Report"
 python3 -m venv .venv && source .venv/bin/activate
 pip install -r requirements.txt
@@ -89,7 +89,7 @@ Features removed during curation (HSV block, RGB std, multi-distance GLCM, dissi
 
 **Figures** (`figures/`): seven EDA figures (`fig01–fig07`), three QC figures (`qc_fig01–qc_fig03`), and publication-quality re-renders (`report_*.png/.svg`).
 
-**Documents** (`docs/`): `ABE651_Final_Report.docx`, `Final_Data_Summary.docx`, `pipeline_log.txt`.
+**Documents** (`docs/`): `ABE651_Final_Report.docx`, `rename_log.txt`, `pipeline_log.txt`.
 
 ---
 
