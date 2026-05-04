@@ -121,5 +121,5 @@ If you use this dataset or pipeline, please cite:
 
 ## Contact
 
-Charles Wang — abepurdue107@gmail.com
+Charles Wang — wangcharles435@gmail.com
 Department of Agricultural & Biological Engineering, Purdue University
